@@ -42,6 +42,7 @@
     pkgs.unzip
     pkgs.systemd
     pkgs.podman
+	pkgs.aria2.bin
   ];
 
   # Sets environment variables in the workspace
