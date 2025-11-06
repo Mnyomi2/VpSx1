@@ -9,7 +9,7 @@
     # pkgs.go
     # 🐍 Programming languages
     # pkgs.python311
-    pkgs.python311Packages.pip  
+    # pkgs.python311Packages.pip  
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
     # pkgs.go
@@ -26,23 +26,24 @@
     pkgs.wget
     pkgs.curl
     pkgs.openssh
-    pkgs.nettools
-    pkgs.iproute2
+    # pkgs.nettools
+    # pkgs.iproute2
 
     # 🧰 Dev & System tools
     pkgs.pv
-    pkgs.sudo
-    pkgs.lsof
-    pkgs.psmisc
+    # pkgs.sudo
+    # pkgs.lsof
+    # pkgs.psmisc
     pkgs.htop
-    pkgs.ncdu
+    # pkgs.ncdu
     pkgs.neofetch
     # pkgs.git
-    pkgs.coreutils
-    pkgs.unzip
-    pkgs.systemd
-    pkgs.podman
-	pkgs.aria2.bin
+    # pkgs.coreutils
+    # pkgs.unzip
+    # pkgs.systemd
+    # pkgs.podman
+	pkgs.aria2
+	# pkgs.python312Packages.websockify
   ];
 
   # Sets environment variables in the workspace
