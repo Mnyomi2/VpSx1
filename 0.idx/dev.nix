@@ -21,6 +21,7 @@
     # 🧱 Virtualization & cloud
     pkgs.qemu
     pkgs.cloud-utils
+	pkgs.qemu_kvm
 
     # 🌐 Networking tools
     pkgs.wget
@@ -39,10 +40,11 @@
     pkgs.neofetch
     # pkgs.git
     # pkgs.coreutils
-    # pkgs.unzip
+    pkgs.unzip
     # pkgs.systemd
     # pkgs.podman
 	pkgs.aria2
+	pkgs.cdrkit
 	# pkgs.python312Packages.websockify
   ];
 
